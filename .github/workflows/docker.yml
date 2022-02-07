@@ -35,5 +35,5 @@ jobs:
       - name: Publish container
         working-directory: docker
         run: |
-          docker login -u subham328 -p Ak@sh328
+          docker login -u odidev -p nibble@123
           make publish
