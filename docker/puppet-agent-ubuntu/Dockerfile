@@ -2,7 +2,7 @@ ARG ubuntu_version=18.04
 
 FROM ubuntu:${ubuntu_version}
 
-ARG version="7.0.0"
+ARG version="7.14.0"
 ARG vcs_ref
 ARG build_date
 ARG UBUNTU_CODENAME="bionic"
